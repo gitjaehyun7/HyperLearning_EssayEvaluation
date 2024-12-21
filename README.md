@@ -10,12 +10,13 @@
 
 ### **1. 환경 설정**
 1. Python 3.8 이상 설치  
-2. 가상환경 생성 및 활성화:
+
+2. 저장소 다운로드:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # Mac/Linux
-   venv\Scripts\activate     # Windows
+   git clone https://github.com/gitjaehyun7/HyperLearning_EssayEvaluation.git
+cd HyperLearning_EssayEvaluation
    ```
+
 3. 필요한 라이브러리 설치:
    ```bash
    pip install -r requirements.txt
@@ -25,7 +26,7 @@
 
 #### **원본 데이터 준비**
 1. AI Hub에서 다운로드한 원본(검증) 데이터(`글짓기`, `대안제시`, `설명글`, `주장`, `찬성반대` 폴더)를 준비합니다.
-2. 프로젝트 디렉토리 안에 `data/essays` 폴더를 생성한 후, 해당 폴더 안에 원본 데이터를 복사합니다:
+2. 생성된 프로젝트 디렉토리 안에 `data/essays` 폴더를 생성한 후, 해당 폴더 안에 원본 데이터를 복사합니다:
     ```
     HyperLearning_EssayEvaluation/
     ├── data/
