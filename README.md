@@ -14,7 +14,7 @@
 2. 저장소 다운로드:
    ```bash
    git clone https://github.com/gitjaehyun7/HyperLearning_EssayEvaluation.git
-cd HyperLearning_EssayEvaluation
+   cd HyperLearning_EssayEvaluation
    ```
 
 3. 필요한 라이브러리 설치:
