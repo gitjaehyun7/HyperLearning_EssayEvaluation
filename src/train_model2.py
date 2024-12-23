@@ -9,6 +9,8 @@ from tensorflow.keras.callbacks import EarlyStopping
 import os
 from data.process_data import process_json_to_csv  # JSON 처리 함수 가져오기
 import sys
+from sklearn.feature_extraction.text import CountVectorizer
+
 # 프로젝트 루트 경로를 추가
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(project_root)
