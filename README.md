@@ -82,11 +82,13 @@ HyperLearning_EssayEvaluation/
   - `os`, `sys` : 파일 및 시스템 경로 관리
   - `data.process_data` : JSON 데이터를 CSV로 변환하는 사용자 정의 모듈
 - **딥러닝 모델 구조**:
+  
   ***Word Count 기반 모델***
   - 은닉 레이어: [128, 64] 노드, ReLU 활성화 함수
   - Dropout: 30% 비율
   - 출력 레이어: 3개 노드(sigmoid 활성화)
-  ***Word Count 기반 모델***
+    
+  ***텍스트 벡터화 기반 모델***
   - 은닉 레이어: [128, 64] 노드, ReLU 활성화 함수
   - Dropout: 20% 비율
   - 출력 레이어: 3개 노드(linear 활성화)
