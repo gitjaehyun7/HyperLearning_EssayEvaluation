@@ -27,6 +27,10 @@
 #### **원본 데이터 준비**
 1. AI Hub에서 다운로드한 원본(검증) 데이터(`글짓기`, `대안제시`, `설명글`, `주장`, `찬성반대` 폴더)를 준비합니다.
 2. 생성된 프로젝트 디렉토리 안에 `data/essays` 폴더를 생성한 후, 해당 폴더 안에 원본 데이터를 복사합니다:
+
+    ```bash
+       mkdir -p data/essays
+    ```
     ```
     HyperLearning_EssayEvaluation/
     ├── data/
