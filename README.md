@@ -74,14 +74,24 @@ HyperLearning_EssayEvaluation/
 ## 4. 사용한 주요 기술 및 라이브러리
 - **Python 라이브러리**:
   - `numpy`, `pandas`: 데이터 분석 및 전처리
-  - `tensorflow`, `keras`: 딥러닝 모델 구축 및 학습
-  - `scikit-learn`: 데이터 분리 및 평가
-  - `transformers`: 토큰화 및 자연어 처리
+  - `scikit-learn`:
+     - 데이터 분리 (train_test_split, kFold) 
+     - 데이터 스케일링 (StandardScaler)
+     - 텍스트 벡터화 (TfidVectorizer, CountVertorizer)
+  - `tensorflow`,`keras` : 딥러닝 모델 구축 및 학습
+  - `os`, `sys` : 파일 및 시스템 경로 관리
+  - `data.process_data` : JSON 데이터를 CSV로 변환하는 사용자 정의 모듈
 - **딥러닝 모델 구조**:
+  ***Word Count 기반 모델***
   - 은닉 레이어: [128, 64] 노드, ReLU 활성화 함수
   - Dropout: 30% 비율
   - 출력 레이어: 3개 노드(sigmoid 활성화)
+  ***Word Count 기반 모델***
+  - 은닉 레이어: [128, 64] 노드, ReLU 활성화 함수
+  - Dropout: 20% 비율
+  - 출력 레이어: 3개 노드(linear 활성화)
 - **평가 지표**:
   - MAE(Mean Absolute Error)를 기반으로 성능 평가
+  - K-Fold 교차 검증 : 성능의 일반화 평가
 
 ---
