@@ -74,7 +74,7 @@ HyperLearning_EssayEvaluation/
 ## 4. 사용한 주요 기술 및 라이브러리
 - **Python 라이브러리**:
   - `numpy`, `pandas`: 데이터 분석 및 전처리
-  - `scikit-learn`:
+  - `scikit-learn`:
      - 데이터 분리 (train_test_split, kFold) 
      - 데이터 스케일링 (StandardScaler)
      - 텍스트 벡터화 (TfidVectorizer, CountVertorizer)
